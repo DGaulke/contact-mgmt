@@ -1,0 +1,48 @@
+/* button.css */
+/* David Gaulke */
+/* ICS 425 - Assignment 4 */
+.button_outer
+{
+	
+	border-radius: 50%;
+	display: inline-block;
+	position: relative; 
+	width: 125px;
+	height: 125px;
+	background-color: white;
+	border: 1px solid #9DC45F;
+	margin: 8px 8px;
+}
+.button_inner
+{
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 12px;
+	left: 12px;
+	width: 100px;
+	height: 100px;
+	background-color: #9DC45F;
+	border: 1px solid #949494;
+}
+.button_label
+{
+	font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+    text-shadow: 1px 1px 1px #949494;
+	top: 50%;
+	left: 5px;
+	right: 5px;
+	margin-top: -10px;
+	position: absolute;
+}
+.two_line
+{
+	top: 35%;
+}
+.button_outer:hover
+{
+	background-color: #3399FF;
+	box-shadow: 0 0 30px #3399FF;
+}
